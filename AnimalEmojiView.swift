@@ -11,7 +11,7 @@ struct AnimalEmojiView: View {
     // Get the animal joint locations.
     @StateObject var animalJoint = AnimalPoseDetector()
     var body: some View {
-        //llll
+        //lllllll
         if animalJoint.animalBodyParts.isEmpty == false {
             VStack {
                 ZStack {
